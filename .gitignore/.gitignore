@@ -1,0 +1,13 @@
+
+public class Variable {
+	public static void main(String[] args) {
+		System.out.print("My Weight On Earth is ");
+		double myWeightOnEarth=74;
+		System.out.println(myWeightOnEarth);
+		double myWeightOnJupiter=myWeightOnEarth*2.54;
+		System.out.println("on jupiter = "+myWeightOnJupiter);
+		double myWeightOnSaturn=myWeightOnEarth*1.08;
+		System.out.println("on saturn = "+myWeightOnSaturn);
+		
+	}
+}
